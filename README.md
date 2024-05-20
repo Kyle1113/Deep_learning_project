@@ -1,5 +1,19 @@
 # Deep_learning_project
 ### [commit log]
+Featrue_extraction
+1. 사용 이유 : 입력으로 들어온 의류(상의 or 하의)와 유사한 의류를 찾기 위한 유사도 분석 과정에서 모든 데이터셋과 비교를 하는 건 효율이 떨어지므로 입력데이터의 '카테고리', '색깔' 속성을 도출해서 같은 속성을 갖는 의류들하고만 유사도 분석을 진행하고자 함. 이때 '카테고리', '색깔' 속성을 뽑아내기 위한 모델로써 이용  
+2. 입력 데이터 : 아래 데이터 전처리 과정을 통해서 얻은 상의를 크롭한 데이터 일부 이용
+- train 303개, test 33
+3. 모델 구조 : base를 공통으로 지나고 '카테고리'와 '색깔' 속성을 각각 예측하는 multioutput 모델 
+- base(VGG) + dense : dense layer를 쌓으면서 분기 or 마지막 출력 레이어서만 분기
+- base(res_net) + dense : dense layer를 쌓으면서 분기 or 마지막 출력 레이어서만 분기
+- 즉 4가지 모델을 비교
+3. 성능 비교 : validation의 정확도 비교
+- '카테고리' 예측은 vgg(dense layer를 쌓으면서 분기)와 res_net(dense layer를 쌓으면서 분기)에서 가장 높은 성능
+- '색깔' 예측은 vgg(dense layer를 쌓으면서 분기)에서 가장 높은 성능
+**그러므로 vgg(dense layer를 쌓으면서 분기) 모델을 사용하는게 합당함**
+  
+### [commit log]
 Data 전처리
 1. image와 json 폴더의 이미지 식별 번호가 다른 파일은 삭제.
 2. resize.py 
