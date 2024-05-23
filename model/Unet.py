@@ -1,4 +1,4 @@
-# 저장된 모델을 사용할 수 있도록 하기 위해, 다음과 같이 모델을 정의합니다:
+# Unet model 정의
 def UNet(input_shape=(256, 256, 3)):
     inputs = tf.keras.layers.Input(input_shape)
     
@@ -57,11 +57,9 @@ def UNet(input_shape=(256, 256, 3)):
     model = tf.keras.Model(inputs=[inputs], outputs=[outputs])
     return model
 
-# 모델 인스턴스 생성
+# model instance
 model = UNet()
 
-
-
-# 위에서 정의한 대로 모델을 컴파일하고 학습합니다.
+# model compile & train
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 model.fit(dataset, epochs=num_epochs)
