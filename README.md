@@ -12,7 +12,7 @@
 
 ## Flow Chart
 
-![deep_learning_flow](https://github.com/Kyle1113/Deep_learning_project/assets/168116920/2c7842ea-6bf0-4248-8edb-5966be953ebe)
+![deep_learning_flow](https://github.com/Kyle1113/Deep_learning_project/assets/168116920/16839089-6059-40c4-8efb-9a3d6303939f)
 
 ## Data
 
