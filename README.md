@@ -2,6 +2,8 @@
 
 # wardrobe wizard(recommend clothes)
 
+---
+
 ## 주제 선정배경
 
 최근에는 패션 시장의 지속적인 확장을 반영해 무신사, 29cm, 에이버리 등 다양한 패션 플랫폼이 빠르게 성장하고 있다. 고객은 종종 어려움에 직면하고 구매 결정을 내리는 데 상당한 시간과 노력을 투자합니다. 이러한 요구를 해결하기 위해 많은 패션 플랫폼에서는 추천 시스템을 사용합니다.
@@ -10,9 +12,13 @@
 
 이러한 한계를 극복하기 위해 우리는 고객이 선택한 의류와 어울리는 의류 품목을 제안하여 진정으로 의미 있는 추천을 제공함으로써 쇼핑 경험을 향상시키는 새로운 추천 시스템을 제안합니다.
 
+---
+
 ## Flow Chart
 
-![deep_learning_flow](https://github.com/Kyle1113/Deep_learning_project/assets/168116920/16839089-6059-40c4-8efb-9a3d6303939f)
+![deep_learning_flow](https://github.com/Kyle1113/Deep_learning_project/assets/168116920/deec9edd-64ea-4817-99d1-ac172a1a46fe)
+
+---
 
 ## Data
 
