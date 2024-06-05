@@ -17,6 +17,11 @@
 ## Flow Chart
 
 ![deep_learning_flow](https://github.com/Kyle1113/Deep_learning_project/assets/168116920/deec9edd-64ea-4817-99d1-ac172a1a46fe)
+
+---
+
+## [PreProcessing](https://github.com/Kyle1113/Deep_learning_project/tree/9afbb2bcd435a1c22fa1ee6e6f53c5a86547da2e/PreProcessing)
+
 ---
 
 ## [Data](https://github.com/Kyle1113/Deep_learning_project/tree/c59d693ab966179f31133d8846d8831488701a86/data)
