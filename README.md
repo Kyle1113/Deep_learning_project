@@ -20,7 +20,7 @@
 
 ---
 
-## Data(https://github.com/Kyle1113/Deep_learning_project/blob/2a20adcc457a3a3dea77a596316550835a2e8ed5/data/data_load.py)
+## [Data](https://github.com/Kyle1113/Deep_learning_project/blob/2a20adcc457a3a3dea77a596316550835a2e8ed5/data/data_load.py)
 
 ## UNet Model Architecture (Sementic segmentation)
 
