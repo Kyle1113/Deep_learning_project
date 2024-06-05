@@ -22,7 +22,7 @@
 
 ## [Data](https://github.com/Kyle1113/Deep_learning_project/blob/2a20adcc457a3a3dea77a596316550835a2e8ed5/data/data_load.py)
 
-## UNet Model Architecture (Sementic segmentation)
+## [UNet Model Architecture (Sementic segmentation)](https://github.com/Kyle1113/Deep_learning_project/tree/32584461f243c192b45d7d1587d31a28d573070b/model/Unet)
 
 The UNet model is a popular architecture for image segmentation tasks. It consists of two main parts: the encoder (downsampling path) and the decoder (upsampling path), with a bottleneck layer in between. Below is a detailed explanation of the UNet architecture used in this project.
 

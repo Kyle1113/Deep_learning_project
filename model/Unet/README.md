@@ -1,3 +1,5 @@
+# UNet Model Architecture (Sementic segmentation)
+
 The UNet model is a popular architecture for image segmentation tasks. It consists of two main parts: the encoder (downsampling path) and the decoder (upsampling path), with a bottleneck layer in between. Below is a detailed explanation of the UNet architecture used in this project.
 
 ### Encoder (Downsampling Path)
