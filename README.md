@@ -29,4 +29,4 @@
 
 ### [Feature Extraction](https://github.com/Kyle1113/Deep_learning_project/tree/46aeff1c9b833d20be4152f7d048fefb2da4c0e1/model/Feature_Extraction)
 
-### Simillarity Distance
+### [Simillarity Distance](https://github.com/Kyle1113/Deep_learning_project/tree/6a70f7253e7a42776cdb1ef11c5da11bcc1185b4/Simillarity%20Distance)
